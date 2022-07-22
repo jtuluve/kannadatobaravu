@@ -406,10 +406,7 @@ let rep = txt.replace(/അ/g, "XAA").replace(/ആ/g, "XAa").replace(/ഇ/g, "XAi
 rep = rep.replace(/eee/g, "ee").replace(/A /g, "A  ").replace(/റ/g,"r").replace(/ഴ/g,"L").replace(/ർ/g, "rA").replace(/ൻ/g, "nA").replace(/ൺ/g, "NA").replace(/ൽ/g, "lA").replace(/ൾ/g, "LA");
 
 
-/* error manager*/
-while(txt.indexOf("eee")>-1){
-				rep = rep.replace("eee", "ee");
-}
+
 rep = rep.replace(/fA/g, "fXA");
 
 
